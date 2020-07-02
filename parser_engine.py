@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-import requests as req # библиотека для взаимодействия с веб-содержимым
+import requests as req  # библиотека для взаимодействия с веб-содержимым
 import bs4 as bs  # библиотека для выдергивания из html-разметки тэгов
 from datetime import datetime  # встроенная библиотека для работы с датой и временем
 

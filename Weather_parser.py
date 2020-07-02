@@ -44,8 +44,8 @@ def get_from_yandex(city, range):
     return weather_list
 
 
-def print_from_database_yandex(date, city):
-    data_base_yan.print_data(date_range=date, city=city)
+def print_from_database_yandex():
+    data_base_yan.print_data()
 
 
 # основной блок программы
@@ -73,6 +73,6 @@ if __name__ == '__main__':
             get_from_yandex(city, range_date)
             print('Данные занесены в БД!')
         elif choice == 'print':
-            print_from_database_yandex(range_date, city)
+            print_from_database_yandex()
         else:
             raise GetExcept()
